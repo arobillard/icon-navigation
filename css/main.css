@@ -1,10 +1,18 @@
 html {
-  font-family: 'Abhaya Libre', serif;
+  font-family: "Abhaya Libre", serif;
 }
 
 .masthead {
   background-color: #423ca3;
   color: #fff;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
   text-align: center;
 }
 
@@ -15,8 +23,9 @@ html {
   border-radius: 8px;
 }
 
-.i-triangle {
-  background-image: url(../images/placeholder-triangle.svg);
+.nav a:hover {
+  color: #15114c;
+  background-color: #fff;
 }
 
 @media only screen and (min-width: 60em) {
